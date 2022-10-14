@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "noso_homes",
+  "info": {
+    "singularName": "noso-home",
+    "pluralName": "noso-homes",
+    "displayName": "noso-home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_alttext": {
+      "type": "string"
+    }
+  }
+}
